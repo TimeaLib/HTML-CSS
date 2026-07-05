@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #456530;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+}
+.month{
+    background-color: #c5e1c5;
+    height: 250px;
+    width: 250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+
+.month p{
+    margin: 20px 0;
+    font-size: 17px;
+}
+.month h2{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.month:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}

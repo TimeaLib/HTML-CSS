@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.flex{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+
+}
+.cube{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.5s;
+
+}
+
+.cube:hover{
+    background-color: gray;
+    border-radius: 50%;
+    transition: 1s;
+}
