@@ -1,0 +1,44 @@
+
+body{
+    margin: 2%;
+}
+
+header{
+    height: 60vh;
+    background-color: #0758ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    padding: 2% 0;
+}
+
+section{
+    margin: 0;
+    background-color: #122e5c;
+    height: 57vh;
+    width: 35%;
+    font-size: 35px;
+}
+
+footer{
+    display: flex;
+    height: 90vh;
+    background-color: #0c63cc;
+    font-size: 45px;
+}
+
+header, section, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: arial, sans-serif;
+}

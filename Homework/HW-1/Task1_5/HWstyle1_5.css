@@ -6,10 +6,19 @@ background-size: cover;
     background-attachment: fixed;
 
 }
-h1, h2{
+h1, h2, h3{
     margin: 30px;
 }
-span{
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+div{
     margin: 30px;
 }
 p{
