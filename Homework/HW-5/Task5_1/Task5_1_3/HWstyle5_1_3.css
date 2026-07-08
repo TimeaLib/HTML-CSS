@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #A4A4A4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.cube_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: midnightblue;
+    animation: cube 10s ease-in-out infinite alternate;
+
+}
+
+.cube_middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: darkslateblue;
+    animation: cube 10s ease-in-out infinite alternate;
+}
+
+.cube_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: midnightblue;
+    animation: cube 10s ease-in-out infinite alternate;
+
+}
+
+@keyframes cube {
+    from{
+        transform: scale(1) rotate(0deg);
+    }
+    20%{
+        transform: scale(1.1) rotate(90deg);
+        background-color: #0758ba;
+    }
+    40%{
+        transform: scale(1.2) rotate(180deg);
+        background-color: #0758ba;
+    }
+    50%{
+        transform: scale(1.2) rotate(360deg);
+        background-color: #447577;
+    }
+    60%{
+        transform: scale(1) rotate(180deg);
+        background-color: #0758ba;
+    }
+    80%{
+        transform: scale(1) rotate(90deg);
+    }
+    to {
+        transform: scale(1) rotate(45deg);
+    }
+}

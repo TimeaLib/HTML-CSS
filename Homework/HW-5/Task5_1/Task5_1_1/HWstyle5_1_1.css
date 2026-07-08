@@ -1,0 +1,110 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #615050;
+}
+.hypno_frog_first-layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    background: saddlebrown;
+    border-radius: 50%;
+    animation: preloader_frog 5s infinite alternate ease-in-out;
+}
+.hypno_frog_first-layer img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+
+}
+.hypno_frog_second-layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    background: burlywood;
+    border-radius: 50%;
+    animation: preloader_frog-second 5s infinite alternate ease-out;
+}
+
+.hypno_frog_third-layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    height: 490px;
+    background: rosybrown;
+    border-radius: 50%;
+    animation: preloader_frog-third 5s infinite alternate ease-out;
+}
+
+
+.hypno_frog_forth-layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    background-color: #441818;
+    border-radius: 50%;
+    animation: preloader_frog-forth 5s infinite alternate ease;
+}
+
+@keyframes preloader_frog {
+    from {
+        transform: scale(1);
+    }
+50%{
+    transform: scale(1.2);
+    background: sandybrown;
+}
+to{
+    transform: scale(1);
+}
+}
+
+@keyframes preloader_frog-second {
+    from {
+        transform: scale(1.1);
+
+    }
+    50%{
+        transform: skew(1deg);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
+
+@keyframes preloader_frog-third{
+    from {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+
+    }
+    to{
+        transform: skew(-1deg);
+    }
+}
+
+@keyframes preloader_frog-forth{
+    from {
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1.1);
+
+    }
+    to{
+        transform: skew(-1deg);
+    }
+}
+
