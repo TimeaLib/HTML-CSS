@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-color: #1b7c83;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration_window{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Mona Sans", sans-serif;
+}
+
+.registration_window div:nth-child(1){
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27 124 131 / 0.11);
+
+}
+
+.registration_window div:nth-child(1) h2{
+    font-weight: 200;
+    font-size: 35px;
+}
+
+ .registration_window form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 30px;
+     padding: 15px;
+ }
+ input[type=text], input[type=password] {
+     width: 400px;
+     height: 35px;
+
+ }
+.registration_window>form> div{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+div>input[type=submit]{
+    background-color: rgb(27 124 131 / 0.11);
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
