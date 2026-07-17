@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid_wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 59% 41%;
+    grid-template-rows: 4% 40% 34% 10% 12%;
+    grid-template-areas:
+    "nav nav"
+    "main top_aside"
+    "main bottom_aside"
+    "section section"
+    "footer footer";
+}
+
+nav{
+    background: rgba(217, 217, 217, 1);
+    grid-area: nav;
+
+}
+main{
+    background: rgba(164, 164, 164, 1);
+    grid-area: main;
+}
+.top_aside{
+    background: rgba(127, 122, 122, 1);
+    grid-area: top_aside;
+
+}
+.bottom_aside{
+    background: rgba(97, 80, 80, 1);
+    grid-area: bottom_aside;
+
+}
+section{
+    background: rgba(217, 217, 217, 1);
+    grid-area: section;
+
+}
+footer{
+    background: rgba(175, 169, 169, 1);
+    grid-area: footer;
+
+}
